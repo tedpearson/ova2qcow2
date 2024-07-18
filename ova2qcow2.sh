@@ -5,8 +5,6 @@
 # Required dependencies:
 # - qemu (brew install qemu)
 
-set -x
-
 if [[ $# -ne 1 ]]; then
 	echo "Usage: ova2qcow2.sh <file.ova>"
 	exit 1
