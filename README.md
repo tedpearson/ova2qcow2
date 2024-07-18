@@ -2,6 +2,8 @@
 
 Just a simple bash script to convert .vmdk image files inside a .ova file into .qcow image files suitable for use with UTM or QEMU.
 
+Thanks to the folks in this discussion for explaining how to do this: https://github.com/utmapp/UTM/discussions/2521
+
 ## How to run a .ova VM in [UTM]
 
 - Convert the .ova to .qcow images: `ova2qcow2.sh file.ova`
